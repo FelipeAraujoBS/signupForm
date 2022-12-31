@@ -1,0 +1,21 @@
+.infocard{
+    background-color: hsl(248, 32%, 49%);
+    position: absolute;
+    min-height: 2%;
+    top: 12%;
+    right: 17.5%;
+    text-align: center;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+.infocard h3{
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+    
+}
+.infocard h3 span{
+    color: whitesmoke;
+    font-weight: thin 100;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+}
