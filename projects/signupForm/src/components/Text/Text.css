@@ -1,0 +1,44 @@
+.Text{
+    color: white;
+    width: 32%;
+    height: 40vh;
+    position: absolute;
+    left: 13%;
+    top: 30%;
+}
+.Text .title{
+    margin-bottom: 6%;
+    font-size: 28px;
+}
+.Text .textBody{
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+
+@media (max-width: 600px){
+    .Text{
+        top: 5%;
+        margin-left: 2%;
+        width: 70%;
+        text-align: center;
+    }
+    .Text .title{
+        margin-bottom: 10%;
+        font-size: 20px;
+    }
+    .Text .textBody{
+        font-size: 16px;
+        font-weight: bolder;
+    }
+}
+@media (max-width: 400px){
+   
+    .Text .title{
+        margin-bottom: 10%;
+        font-size: 18px;
+    }
+    .Text .textBody{
+        font-size: 14px;
+    }
+}

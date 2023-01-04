@@ -9,7 +9,7 @@ body{
 }
 html{
   background-color: hsl(0, 100%, 74%) ;
-  background-image: url(./../../intro-component-with-signup-form-master/images/bg-intro-desktop.png);
+  background-image: url(./components/img/bg-intro-desktop.png);
 }
 .App{
   width: 100vw;

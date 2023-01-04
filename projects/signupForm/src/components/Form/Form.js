@@ -56,9 +56,6 @@ function Form(props) {
     setErrorsValue(validate(formData))
   }
 
-  console.log(formData)
-  console.log(errorsValue)
-
 
   return (
     <Card>
